@@ -1,6 +1,7 @@
 custom_extension = ".bl"
 file_name = "" + custom_extension
-def create_custom_file(data):
+
+def create_file(data):
   try:
     with open(file_name, 'w') as custom_file:
         custom_file.write(data)
@@ -8,7 +9,7 @@ def create_custom_file(data):
   except IOError as e:
       print(f"An error occurred: {e}")
 
-def read_custom_file():
+def read_file():
   try:
       with open(filename, 'r') as custom_file:
           content = custom_file.read()
