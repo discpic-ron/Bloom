@@ -5,7 +5,3 @@ from interpreter import Interpreter
 data = read_file(filename)
 interpreter = Interpreter()
 searcher = Parse()
-
-def identify_error(self):
-  pass
-  
