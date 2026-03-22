@@ -21,3 +21,12 @@ class fs:
   
   def mkdir(self,path):
     pass
+
+  def get_size(path):
+    pass
+
+  def get_name(path):
+    pass
+
+  def info(path):
+    pass
