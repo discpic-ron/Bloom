@@ -1,4 +1,4 @@
-class parse:
+class Parse:
   def __init__(self,tokens):
     self.tokens = tokens
 
