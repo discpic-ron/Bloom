@@ -5,3 +5,9 @@ from interpreter import Interpreter
 data = read_file(filename)
 interpreter = Interpreter()
 searcher = Parse()
+
+def show(content):
+  pass
+
+def interaction(content):
+  pass
