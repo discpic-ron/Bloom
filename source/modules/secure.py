@@ -6,3 +6,6 @@ def decode(item):
 
 def encode_file(path):
   pass
+
+def token():
+  pass
